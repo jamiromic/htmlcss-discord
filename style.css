@@ -9,14 +9,9 @@ header {
     height: 81px;
     display: flex;
     align-content: center;
-}
-
-.back{
     background-image: url(./img/img/jumbo.png);
-    background-size: contain;
-    background-repeat: none;
-
 }
+
 
 .list_flex {
     display: flex;
@@ -24,6 +19,7 @@ header {
     list-style: none;
     justify-content: space-between;
     flex-basis: 40%;
+    color: white;
 }
 
 
@@ -47,32 +43,55 @@ header {
 
 .section_1 {
     height: 387px;
-    width: 901;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
+    background-image: url(./img/img/jumbo.png);
+    background-size: 1950px 390px;
 }
 
 .container_1 {
     width: 901px;
     height: 387px;
     align-self: center;
-    border: 1px dashed black;
     justify-content: center;
     display: flex;
     flex-direction: column;
 
 }
 
+.mac{
+    align-self: center;
+    padding: 15px;
+    border: none;
+    border-radius: 25%;
+    background-color: grey;
+
+}
+
+.open{
+    align-self: center;
+    padding: 15px;
+    border: none;
+    border-radius: 25%;
+    color: white;
+    background-color: black;
+}
+
 
 .title{
     align-self: center;
+    font-size: 59px;
+    padding-bottom: 20px;
 }
 
 .paragraphtitle{
-    align-self: center
+    align-self: center;
+    font-size: 25px;
+    line-height: 2;
+    text-align: center;
 }
 
 .buttons1{
